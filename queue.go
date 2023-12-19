@@ -47,24 +47,24 @@ func (q *Queue) Peek() (int, error) {
 	return q.Elements[0], nil
 }
 
-func main() {
-	queue := Queue{Size: 3}
-	fmt.Println(queue.Elements)
-	queue.Enqueue(1)
-	fmt.Println(queue.Elements)
-	queue.Enqueue(2)
-	fmt.Println(queue.Elements)
-	queue.Enqueue(3)
-	fmt.Println(queue.Elements)
-	queue.Enqueue(5)
-	fmt.Println(queue.Elements)
-	elem := queue.Dequeue()
-	fmt.Println(elem)
-	fmt.Println(queue.Elements)
-	queue.Enqueue(9)
-	fmt.Println(queue.Elements)
-	elem = queue.Dequeue()
-	fmt.Println(elem)
-	fmt.Println(queue.Elements)
+// func main() {
+// 	queue := Queue{Size: 3}
+// 	fmt.Println(queue.Elements)
+// 	queue.Enqueue(1)
+// 	fmt.Println(queue.Elements)
+// 	queue.Enqueue(2)
+// 	fmt.Println(queue.Elements)
+// 	queue.Enqueue(3)
+// 	fmt.Println(queue.Elements)
+// 	queue.Enqueue(5)
+// 	fmt.Println(queue.Elements)
+// 	elem := queue.Dequeue()
+// 	fmt.Println(elem)
+// 	fmt.Println(queue.Elements)
+// 	queue.Enqueue(9)
+// 	fmt.Println(queue.Elements)
+// 	elem = queue.Dequeue()
+// 	fmt.Println(elem)
+// 	fmt.Println(queue.Elements)
 
-}
+// }
